@@ -9,6 +9,9 @@ export default class PersistenceFactory {
             case "FILE":
                 let { default: UsersDaoFile } = await import('./userDaoFile.js')
                 return new UsersDaoFile()
+            case "MONGO":
+                let { default: UsersDaoMongo } = await import('./userDaoMongo.js')
+                return new UsersDaoMongo()
         }
     }
 }
