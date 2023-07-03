@@ -1,8 +1,29 @@
 [
 	{
-		"name": "Otro User",
+		"firstname": "Susana",
+		"lastname": "Oria",
 		"age": 34,
 		"email": "otroemail@gmail.com",
+		"address": "Calle Uno 123",
+		"city": "CABA",
 		"id": 1
+	},
+	{
+		"firstname": "Zoila",
+		"lastname": "baca",
+		"age": 34,
+		"email": "otroemail@gmail.com",
+		"address": "Calle Uno 123",
+		"city": "CABA",
+		"id": 2
+	},
+	{
+		"firstname": "Miguel",
+		"lastname": "Rodriguez",
+		"age": 34,
+		"email": "otroemail@gmail.com",
+		"address": "Calle Uno 123",
+		"city": "CABA",
+		"id": 3
 	}
 ]
